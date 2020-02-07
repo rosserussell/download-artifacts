@@ -15,7 +15,9 @@ type=${4:-war}
 #repo=${6:-snapshots}                                                                                                                                                                                             
 repo=${5:-snapshots}                                                                                                                                                                                             
                                                                                                                                                                                                                  
-base=${6:-"http://13.56.58.128:8081/repository/devops-test-repo-snapshot"}                                                                                                                                                                                             
+#base=${6:-"http://13.56.58.128:8081/repository/devops-test-repo-snapshot"} 
+base=${6:-"http://13.57.252.255:8081/repository/devops-test-repo-snapshot"}
+                                                                                                                                                                                            
 classifier=${7:-}                                                                                                                                                                                                
 #base="http://13.56.58.128:8081/repository/devops-test-repo-snapshot"
 
